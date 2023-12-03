@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{AKASH GUPTA}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large 'Python Full-Stack' $\sim$ Automobile-Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{Globe}{11}{\href{http://www.google.com}{ak744Portfo.com}}\\ 
+    \icon{Phone}{11}{7440901753}\\
+    \icon{MapMarker}{11}{Banglore,Bharat}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:email@example.com}{akgupta427@gmail.com}}\\	
+    \icon{Github}{11}{\href{https://github.com/uma-dev}{https://github.com/akashgupta744}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{ akash-gupta-029b87179}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+    %Dummy text
+
+
+I'm thrilled to embark on my journey in the dynamic world of Information Technology! As a last year graduate with a strong foundation in Python, Object-Oriented Programming (OOPS) concepts, and Django, DSA,  I'm excited to apply my skills and make a meaningful contribution to the IT sector.I believe that continuous learning is the key to success, and I'm passionate about staying at the forefront of technology trends. My goal is to work with dedication and enthusiasm.
+ \\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+    HTML, CSS, JavaScript, Python, SQL, Numpy, Panda  
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Framework / Tool-kits:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Django, TKInter
+    \end{minipage}
+     \vspace{4mm}
+     
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Soft-Skills:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Team-Collaboration, Client-Focused, Time-Management, Problem-Solving, Critical-Thinking
+    \end{minipage}
+    
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+\begin{entrylist}
+    \entry
+		{Django}
+		{E-Commerce Platform with Personalized Recommendations}
+		{}
+		{A user-friendly shopping website using Python and Django. Implemented            intuitive navigation, secure transactions, and a dynamic product               catalog. Enhanced the customer experience by crafting a seamless and           efficient platform for online shopping}
+    \entry
+		{Django}
+		{E-food ordering system}
+		{}
+		{Developed an efficient online food ordering system using Python and            Django, seamlessly connecting customers with their favorite cuisines.          Implemented user-friendly interfaces, secure payment gateways, and real-       time order tracking, enhancing the overall dining experience for users.}
+	\entry
+		{TKInter}
+		{2048 - Game}
+		{}
+		{Developed a visually engaging 2048 game using Python's Tkinter library. Implemented an interactive GUI with a 4x4 grid, allowing seamless tile movements and merges. Enhanced user experience with intuitive controls, dynamic score tracking, and a visually appealing interface}
+   
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{August/2018 - May/2022}
+		{B.TECH // Automobile Engineering}
+		{Engineering}
+		{Rustamji Institute of Technology, BSF Academy, Tekanpur, Gwalior, Madhya Pradesh 475005}
+	\entry
+		{2017 - 2018}
+		{12 th // PCM}
+		{Higher Secondary School}
+		{TouchStone Public Higher Secondary School, Gohad Dist Bhind 477116}
+	\entry
+		{2015 - x2016}
+		{10th // General}
+		{High School}
+		{TouchStone Public Higher Secondary School, Gohad Dist Bhind 477116}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {May/2023- Present}
+		{ PYspiders Marathahalli, Bangalore}
+		{Internship}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+           Interned at Jspiders, gaining expertise in Python Full Stack with Django. Successfully developed web applications, implemented robust backend solutions, and contributed to dynamic front-end interfaces. Acquired hands-on experience in database management, API integration, and software development best practices.
+        \end{itemize} 
+        \texttt{HTML, CSS, JAVASCRIPT} \slashsep \texttt{PYTHON, DJANGO}\slashsep \texttt{SQL}}
+	\entry
+		{June/2022 -- May/2023}
+		{BRITE AUTOWHEELS PVT.LTD (NOIDA,UP) //(Skoda Car Dealership)}
+		{Full-time}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item \• Provided exceptional customer service, handling customer inquiries and concerns with professionalism and a positive attitude. 
+             \item \• Demonstrated strong problem-solving skills, resolving customer concerns and complaints with keen attention to detail and a focus on finding solutions. 
+             \item \• Effectively resolved all warranty concerns from the customer side, ensuring that customers were satisfied with the outcome and that the dealership's reputation remained strong. 
+             \item \• Acted as a technical assistant for customers, providing expert technical advice and assistance when needed. 
+            
+        \end{itemize} 
+        \texttt{Team-Management} \slashsep \texttt{Client-Handling}}
+	
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    
+    \hspace{26mm} \textbf{English} - Fluent, \textbf{ Hindi} - native
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
